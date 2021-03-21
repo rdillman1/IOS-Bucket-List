@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA570A7A2607F9B600D65D93 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA570A792607F9B600D65D93 /* Launch Screen.storyboard */; };
+		DA570A7F2607FBCD00D65D93 /* TWU.webp in Resources */ = {isa = PBXBuildFile; fileRef = DA570A7E2607FBCD00D65D93 /* TWU.webp */; };
 		DAF4DA1F25F59C0E000A45AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DA1E25F59C0E000A45AA /* AppDelegate.swift */; };
 		DAF4DA2125F59C0E000A45AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DA2025F59C0E000A45AA /* SceneDelegate.swift */; };
 		DAF4DA2325F59C0E000A45AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DA2225F59C0E000A45AA /* ViewController.swift */; };
 		DAF4DA2625F59C0E000A45AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF4DA2425F59C0E000A45AA /* Main.storyboard */; };
 		DAF4DA2825F59C11000A45AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF4DA2725F59C11000A45AA /* Assets.xcassets */; };
-		DAF4DA2B25F59C11000A45AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF4DA2925F59C11000A45AA /* LaunchScreen.storyboard */; };
 		DAF4DA3625F59C11000A45AA /* TWU_BucketListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DA3525F59C11000A45AA /* TWU_BucketListTests.swift */; };
 		DAF4DA4125F59C11000A45AA /* TWU_BucketListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DA4025F59C11000A45AA /* TWU_BucketListUITests.swift */; };
 		DAF4DA5225F5A881000A45AA /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DA5125F5A881000A45AA /* AddViewController.swift */; };
@@ -37,13 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA570A792607F9B600D65D93 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DA570A7E2607FBCD00D65D93 /* TWU.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = TWU.webp; path = ../../Downloads/TWU.webp; sourceTree = "<group>"; };
 		DAF4DA1B25F59C0E000A45AA /* TWU_BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWU_BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF4DA1E25F59C0E000A45AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF4DA2025F59C0E000A45AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DAF4DA2225F59C0E000A45AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAF4DA2525F59C0E000A45AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAF4DA2725F59C11000A45AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAF4DA2A25F59C11000A45AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAF4DA2C25F59C11000A45AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF4DA3125F59C11000A45AA /* TWU_BucketListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWU_BucketListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF4DA3525F59C11000A45AA /* TWU_BucketListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWU_BucketListTests.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		DAF4DA1225F59C0E000A45AA = {
 			isa = PBXGroup;
 			children = (
+				DA570A7E2607FBCD00D65D93 /* TWU.webp */,
 				DAF4DA1D25F59C0E000A45AA /* TWU_BucketList */,
 				DAF4DA3425F59C11000A45AA /* TWU_BucketListTests */,
 				DAF4DA3F25F59C11000A45AA /* TWU_BucketListUITests */,
@@ -110,8 +113,8 @@
 				DAF4DA5625F5A8C3000A45AA /* AlterViewController.swift */,
 				DAF4DA2425F59C0E000A45AA /* Main.storyboard */,
 				DAF4DA2725F59C11000A45AA /* Assets.xcassets */,
-				DAF4DA2925F59C11000A45AA /* LaunchScreen.storyboard */,
 				DAF4DA2C25F59C11000A45AA /* Info.plist */,
+				DA570A792607F9B600D65D93 /* Launch Screen.storyboard */,
 			);
 			path = TWU_BucketList;
 			sourceTree = "<group>";
@@ -237,8 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF4DA2B25F59C11000A45AA /* LaunchScreen.storyboard in Resources */,
 				DAF4DA2825F59C11000A45AA /* Assets.xcassets in Resources */,
+				DA570A7F2607FBCD00D65D93 /* TWU.webp in Resources */,
+				DA570A7A2607F9B600D65D93 /* Launch Screen.storyboard in Resources */,
 				DAF4DA2625F59C0E000A45AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,14 +314,6 @@
 				DAF4DA2525F59C0E000A45AA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DAF4DA2925F59C11000A45AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAF4DA2A25F59C11000A45AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

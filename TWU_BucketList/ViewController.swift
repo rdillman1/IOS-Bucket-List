@@ -20,15 +20,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        
-        updateTasks()
+    updateTasks()
         //setup
         if !UserDefaults().bool(forKey: "setup"){
             UserDefaults().setValue(true, forKey: "setup")
             UserDefaults().setValue(0, forKey: "count")
+            UserDefaults().setValue(0, forKey: "completed")
             
            // self.navigationItem.rightBarButtonItem = self.editButtonItem
-            
+            tableView.isEditing = true
         }
         
         
@@ -39,6 +39,10 @@ class ViewController: UIViewController {
     
     func updateTasks(){
         
+        tableView.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+        
+       
+
         items.removeAll()
         latitudes.removeAll()
         longitudes.removeAll()
@@ -72,6 +76,7 @@ class ViewController: UIViewController {
         
         
 }
+   
 }
 
 
@@ -111,6 +116,7 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
+        
        // return latitudes.count
     }
     
@@ -118,8 +124,11 @@ extension ViewController: UITableViewDataSource {
         let item = tableView.dequeueReusableCell(withIdentifier: "item", for: indexPath)
     //
         item.textLabel?.text = items[indexPath.row]
+        item.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
         return item;
     }
+    
+    
 }
 
 
