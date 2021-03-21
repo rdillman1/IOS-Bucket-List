@@ -15,14 +15,14 @@ I began tickering with the xcode application and found that the version I had do
 
 Managed to get a basic app using viewcontroller.swift and main.storyboard. 
 
-##03/02/2021 Learning
+## 03/02/2021 Learning
 
 I started with some basics on how to transfer data from once storyboard ot another. 
 as I got that understoood I started my TWU Project 
 
 I got my main screen setup with a tableview. going to dive into deeper knowledge next time. 
 
-##03/05/2021 Controllers and delegates
+## 03/05/2021 Controllers and delegates
 
 I started gettin into how the data gets loaded onto the table and how to manipulated the data. 
 Learned about UserDefaults and Keys to them. and learn how to load that data into an array with each iteration see below
@@ -59,14 +59,14 @@ setup add view controller to take in 4 data values and setup the nav panel for s
 I was able to test and confirm the data came through. 
 
 
-##03/07/2021 Milestone
+## 03/07/2021 Milestone
 
 I tested my application again and tried to get it setup to the remote Gitlab repository. HAd several difficulties. 
 Decided to just upload a zip and spend more time on how to setup remote repository on xcode for the final project. 
 
 
 
-##03/16/2021 Alter table view nightmare
+## 03/16/2021 Alter table view nightmare
 
 I started working out of the alter table view and was proud of my resultes in the alter table view I ws getting all the data pushed through and appied to labels. 
 I started with a delete function. This was successfull to I didnt have much trouble count and deletion location. 
@@ -83,7 +83,7 @@ fix edit if you have time
 mark completed task in alter
 add popup questions for delete. 
 
-##03/20/2021 A lot done
+## 03/20/2021 A lot done
 
 
 Learning how to setup the launch storyboard was very straight forward. The one I designed was simple, it matches my app. 
@@ -99,7 +99,7 @@ This mark completed button measure each time you complete a task and tels you ho
 Once dismissed the task gets taken off the board for the user. 
 
 
-##03/21/2021 Save changes research
+## 03/21/2021 Save changes research
 
 I spent most of this day getting gitlab setup and commited/pushed
 
